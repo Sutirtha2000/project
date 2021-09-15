@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title1{
+    text-align: center;
+    font-size: 50px;
+    color: royalblue;
+    padding: 10px;
+    background-image: url("code.jpg");
+    text-shadow: 1px 5px darkgray;
+    font-style: italic;;
+}
+.title2{
+    text-align: center;
+    font-size: 25px;
+    color: skyblue;
+    padding: 5px;
+    background-image: url("code.jpg");
+    text-shadow: 1px 5px rgb(172, 158, 158);
+    font-style: italic;
+}
+nav{
+    font-size: 20px;
+    overflow: hidden;
+    border: 1px solid blueviolet;
+    background-color: cornsilk;
+    display: block;
+}
+nav a{
+    padding: 14px 100px;
+    float: left;
+    font-weight: 700;
+}
+article{
+    padding: 10px;
+    text-align: left;
+}
+.cont-us{
+    text-align: center;
+    font-size: 35px;
+    color:darkcyan;
+}
+.query{
+    font-size: medium;
+    text-align: center;
+    color: dimgray;
+}
+header p{
+    padding-left: 30px;
+    font-size: 20px;
+    color:gold;
+}
+form{
+    padding: 10px;
+    padding-left: 30px;
+    border:1px solid black;
+    font-size: 25px;
+    background-color: rgb(223, 217, 165);
+    font-weight: 700;
+}
+div{
+    padding: 2px;
+    margin: 10px;
+    word-spacing: .2px;
+    padding-bottom: 37.5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input[type="text"],input[type="number"],input[type="email"]{
+    width:70%;
+    padding:10px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 4px;
+    border:1px solid black;
+}
+textarea{
+    width: 100%;
+    border-radius: 4px;
+    margin: 10px;
+    border:1px solid black;
+}
+form div input[type="file"]{
+    color: rgb(80, 41, 223);
+    padding: 5px;
+    background-color: azure;
+    border-radius: 4px;
+}
+form div input[type="file"]:hover{
+    cursor: pointer;
+}
+input[type="submit"]{
+    float: left;
+    width: 50%;
+    color:rgb(252, 150, 16);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    border-radius: 4px;
+    border:1px solid black;
+}
+header p span{
+    float: right;
+    color:darkblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"]:hover{
+    background-color: rgb(138, 182, 202);
+    cursor: pointer;
+}
