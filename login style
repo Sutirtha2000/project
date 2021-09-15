@@ -1,1 +1,96 @@
-*{     box-sizing: border-box;     margin: 0%;     padding:0px;     border: 0%; } body{     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; } .title1{     color:blue;     text-align: center;     font-size: 60px;     font-style: italic;     text-shadow: 1px 5px blueviolet;     background-image: url("download.jpg");     padding:10px;     background-position: top; } .title2{     color: cornflowerblue;     text-align: center;     font-size: 25px;     padding:5px;     background-image: url("download.jpg");     background-position: bottom; } nav a{     font-size: 30px;     color: darkcyan;     padding-right: 120px;     padding-left: 61.2px;     font-weight: 700;     float: left;     padding-bottom: 5px;     background-color: rgb(195, 195, 231);     overflow: hidden;     margin: 0px; } .login-info{     padding-left: 40px;     font-size: 800;     color: darkgrey; } article{     margin: 10px; } form{     padding-left: 40px;     border: 1px solid black;     font-size: 20px;     font-weight: 600;     margin: 10px;     background-color: honeydew;     padding-bottom: 5px; } form p{     margin:15px;     font-size: 25px;     font-weight: 700; } input[type="email"]{     width:40%;     padding:5px; } input[type="password"]{     width:20%;     padding:5px; } input[type="submit"]{     color:darkkhaki;     padding:10px;     font-size: 20px;     width:15%; } input[type="reset"]{     color:darkkhaki;     padding:10px;     font-size: 20px;     width:15%; } form a{     float: right;     padding-right: 20px; } .section2{     padding-left: 30px; } section.section2 h2{     color:darkorange;     font-size: 30px; } .create-account{     font-size: 25px;     font-weight: 600; }
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding:0px;
+    border: 0%;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title1{
+    color:blue;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    text-shadow: 1px 5px blueviolet;
+    background-image: url("download.jpg");
+    padding:10px;
+    background-position: top;
+}
+.title2{
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 25px;
+    padding:5px;
+    background-image: url("download.jpg");
+    background-position: bottom;
+}
+nav a{
+    font-size: 30px;
+    color: darkcyan;
+    padding-right: 120px;
+    padding-left: 61.2px;
+    font-weight: 700;
+    float: left;
+    padding-bottom: 5px;
+    background-color: rgb(195, 195, 231);
+    overflow: hidden;
+    margin: 0px;
+}
+.login-info{
+    padding-left: 40px;
+    font-size: 800;
+    color: darkgrey;
+}
+article{
+    margin: 10px;
+}
+form{
+    padding-left: 40px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    background-color: honeydew;
+    padding-bottom: 5px;
+}
+form p{
+    margin:15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+input[type="email"]{
+    width:40%;
+    padding:5px;
+}
+input[type="password"]{
+    width:20%;
+    padding:5px;
+}
+input[type="submit"]{
+    color:darkkhaki;
+    padding:10px;
+    font-size: 20px;
+    width:15%;
+}
+input[type="reset"]{
+    color:darkkhaki;
+    padding:10px;
+    font-size: 20px;
+    width:15%;
+}
+form a{
+    float: right;
+    padding-right: 20px;
+}
+.section2{
+    padding-left: 30px;
+}
+section.section2 h2{
+    color:darkorange;
+    font-size: 30px;
+}
+.create-account{
+    font-size: 25px;
+    font-weight: 600;
+}
